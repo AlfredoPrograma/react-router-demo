@@ -1,5 +1,6 @@
 {
   "name": "react-router-demo",
+  "homepage": "/react-router-demo/#",
   "private": true,
   "version": "0.0.0",
   "type": "module",
