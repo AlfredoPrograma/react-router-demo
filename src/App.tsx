@@ -6,6 +6,7 @@ function App() {
   return (
     <HashRouter basename={import.meta.env.BASE_URL}>
       <Routes>
+        <Route path="match" element={<HomePage />} />
         <Route path=":session/home" element={<HomePage />} />
         <Route path=":session/about" element={<AboutPage />} />
       </Routes>
